@@ -1,8 +1,8 @@
 # GitHub Pages Configuration
 title: "Servicios Generales - Soluciones para Hogar y Oficina"
 description: "Instalación profesional de cámaras de seguridad y servicios generales"
-baseurl: "/servicios-generales"
-url: "https://[username].github.io"
+baseurl: ""
+url: "https://servicios-generales.duckdns.org"
 
 # Build settings
 markdown: kramdown
