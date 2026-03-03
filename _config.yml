@@ -1,0 +1,37 @@
+# GitHub Pages Configuration
+title: "Servicios Generales - Soluciones para Hogar y Oficina"
+description: "Instalación profesional de cámaras de seguridad y servicios generales"
+baseurl: "/servicios-generales"
+url: "https://[username].github.io"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Plugins
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# SEO
+author: "Servicios Generales"
+lang: es
+timezone: America/Argentina/Buenos_Aires
+
+# Social (optional)
+twitter_username: ""
+github_username: ""
+
+# Google Analytics (optional)
+google_analytics: ""
