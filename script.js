@@ -53,7 +53,8 @@ window.addEventListener('scroll', () => {
     lastScroll = currentScroll;
 });
 
-// Form Validation and Submission
+// Form Validation and Submission (removed - form no longer exists)
+/*
 const contactForm = document.getElementById('contactForm');
 const formInputs = contactForm.querySelectorAll('input, select, textarea');
 
@@ -195,6 +196,7 @@ function simulateFormSubmission(data) {
         }, 1500);
     });
 }
+*/
 
 // Notification System
 function showNotification(message, type = 'info') {
@@ -288,7 +290,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-// Phone number formatting
+// Phone number formatting (removed - no phone input form)
+/*
 const phoneInput = document.getElementById('phone');
 if (phoneInput) {
     phoneInput.addEventListener('input', (e) => {
@@ -308,6 +311,7 @@ if (phoneInput) {
         e.target.value = value;
     });
 }
+*/
 
 // Add CSS for error states
 const style = document.createElement('style');

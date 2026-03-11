@@ -500,7 +500,8 @@ body {
     height: 24px;
 }
 
-/* Form Styles */
+/* Form Styles (removed - no longer needed) */
+/*
 .contact-form {
     background: var(--bg-white);
     padding: 2rem;
@@ -535,6 +536,7 @@ body {
     resize: vertical;
     min-height: 100px;
 }
+*/
 
 /* Footer */
 .footer {
@@ -644,6 +646,10 @@ body {
     
     .contact-details {
         grid-template-columns: 1fr;
+    }
+    
+    .hero-image {
+        display: none;
     }
     
     .hero-buttons {
