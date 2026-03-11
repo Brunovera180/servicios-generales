@@ -259,7 +259,7 @@ body {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
 }
 
@@ -624,6 +624,13 @@ body {
     }
 }
 
+/* Tablets medianas */
+@media (max-width: 1024px) and (min-width: 769px) {
+    .services-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-menu {
@@ -657,14 +664,14 @@ body {
         flex-wrap: wrap;
     }
     
+    .services-grid {
+        grid-template-columns: 1fr;
+    }
+    
     .security-content,
     .contact-content {
         grid-template-columns: 1fr;
         gap: 2rem;
-    }
-    
-    .services-grid {
-        grid-template-columns: 1fr;
     }
     
     .footer-content {
