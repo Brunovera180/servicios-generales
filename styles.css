@@ -659,6 +659,10 @@ body {
         display: none;
     }
     
+    .camera-mockup {
+        display: none;
+    }
+    
     .hero-buttons {
         justify-content: center;
         flex-wrap: wrap;
